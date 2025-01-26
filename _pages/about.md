@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a master student at the Media Synthesis and Forensics Lab (formerly known as Multimedia Computing Group), [Instutite of Computing Technology](http://www.ict.ac.cn/), [Chinese Academy of Sciences](http://www.cas.cn/), advised by professor **Juan Cao** and assistant professor (researcher) [**Qiang Sheng**](https://sheng-qiang.github.io).
+I am a master student at the Media Synthesis and Forensics Lab (formerly known as Multimedia Computing Group), [Instutite of Computing Technology](http://www.ict.ac.cn/), [Chinese Academy of Sciences](http://www.cas.cn/), advised by professor [Juan Cao](https://scholar.google.com/citations?user=fSBdNg0AAAAJ) and assistant professor (researcher) [Qiang Sheng](https://sheng-qiang.github.io).
 
 My research interest includes toxic content detection, jailbreaking, alignment, and fake news detection, in the era of large language models.
 <!-- I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=D09OAbQAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> -->
@@ -47,9 +47,13 @@ My research interest includes toxic content detection, jailbreaking, alignment, 
 </div>
 </div> -->
 
-- [Bad actor, good advisor: Exploring the role of large language models in fake news detection](https://github.com/ICTMCG/ARG), Beizhe Hu, Qiang Sheng, Juan Cao, Yuhui Shi, <font color="Blue">Yang Li</font>, Danding Wang, Peng Qi, **AAAI 2024**
+- \[**AAAI 2024**\][Bad actor, good advisor: Exploring the role of large language models in fake news detection](https://github.com/ICTMCG/ARG)
+  
+  Beizhe Hu, Qiang Sheng, Juan Cao, Yuhui Shi, <u><font size=4>Yang Li</font></u>, Danding Wang, Peng Qi
 
-- [For a more comprehensive evaluation of 6dof object pose tracking](https://arxiv.org/abs/2309.07796), <font color="Blue">Yang Li</font>, Fan Zhong, Xin Wang, Shuangbing Song, Jiachen Li, Xueying Qin, Changhe Tu, **Arxiv**
+- \[**Arxiv**\][For a more comprehensive evaluation of 6dof object pose tracking](https://arxiv.org/abs/2309.07796)
+  
+  <u><font size=4>Yang Li</font></u>, Fan Zhong, Xin Wang, Shuangbing Song, Jiachen Li, Xueying Qin, Changhe Tu
 
 # 🎖 Honors and Awards
 - *2024* Second-Class Academic Scholarship, University of Chinese Academy of Sciences. 
