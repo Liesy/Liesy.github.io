@@ -22,7 +22,7 @@ I am a master student at the Media Synthesis and Forensics Lab (formerly known a
 My research interest includes toxic content detection, jailbreaking, alignment, and fake news detection, in the era of large language models.
 <!-- I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=D09OAbQAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> -->
 
-<a href='https://scholar.google.com/citations?user=D09OAbQAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
+<a href='https://scholar.google.com/citations?user=D09OAbQAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 
 
 <!-- # 🔥 News
@@ -47,9 +47,9 @@ My research interest includes toxic content detection, jailbreaking, alignment, 
 </div>
 </div> -->
 
-- [Bad actor, good advisor: Exploring the role of large language models in fake news detection](https://github.com/ICTMCG/ARG), Beizhe Hu, Qiang Sheng, Juan Cao, Yuhui Shi, <u>Yang Li</u>, Danding Wang, Peng Qi, **AAAI 2024**
+- [Bad actor, good advisor: Exploring the role of large language models in fake news detection](https://github.com/ICTMCG/ARG), Beizhe Hu, Qiang Sheng, Juan Cao, Yuhui Shi, <font color="Blue">Yang Li</font>, Danding Wang, Peng Qi, **AAAI 2024**
 
-- [For a more comprehensive evaluation of 6dof object pose tracking](https://arxiv.org/abs/2309.07796), <u>Yang Li</u>, Fan Zhong, Xin Wang, Shuangbing Song, Jiachen Li, Xueying Qin, Changhe Tu, **Arxiv**
+- [For a more comprehensive evaluation of 6dof object pose tracking](https://arxiv.org/abs/2309.07796), <font color="Blue">Yang Li</font>, Fan Zhong, Xin Wang, Shuangbing Song, Jiachen Li, Xueying Qin, Changhe Tu, **Arxiv**
 
 # 🎖 Honors and Awards
 - *2024* Second-Class Academic Scholarship, University of Chinese Academy of Sciences. 
