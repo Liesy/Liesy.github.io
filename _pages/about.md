@@ -17,12 +17,12 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a master student at the Media Synthesis and Forensics Lab (formerly known as Multimedia Computing Group), [Instutite of Computing Technology](http://www.ict.ac.cn/), [Chinese Academy of Sciences](http://www.cas.cn/), advised by Prof. **Juan Cao**.
+I am a master student at the Media Synthesis and Forensics Lab (formerly known as Multimedia Computing Group), [Instutite of Computing Technology](http://www.ict.ac.cn/), [Chinese Academy of Sciences](http://www.cas.cn/), advised by professor **Juan Cao** and assistant professor (researcher) [**Qiang Sheng**](https://sheng-qiang.github.io).
 
 My research interest includes toxic content detection, jailbreaking, alignment, and fake news detection, in the era of large language models.
 <!-- I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=D09OAbQAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> -->
 
-<a href='https://scholar.google.com/citations?user=D09OAbQAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+<a href='https://scholar.google.com/citations?user=D09OAbQAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 <!-- # 🔥 News
