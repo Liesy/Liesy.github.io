@@ -30,8 +30,10 @@ My research interest includes toxic content detection, jailbreaking, alignment, 
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 
 # 📖 Educations
-- *2023.06 - now*, Master, Institute of Computing Technology, Chinese Academy of Sciences. 
-- *2019.09 - 2023.06*, Bechelor, School of Computer Science and Technology, Shandong University.
+- *2023.06 - now*, Master
+  - Institute of Computing Technology, Chinese Academy of Sciences. 
+- *2019.09 - 2023.06*, Bechelor
+  - School of Computer Science and Technology, Shandong University.
 
 # 📝 Publications 
 
@@ -58,7 +60,9 @@ My research interest includes toxic content detection, jailbreaking, alignment, 
 # 🎖 Honors and Awards
 - *2024* Second-Class Academic Scholarship, University of Chinese Academy of Sciences. 
 - *2023* Freshman Scholarship of [E Fund](https://www.efunds.com.cn/index.shtml) Financial Technology. 
-- *2023* First-Class Academic Scholarship, University of Chinese Academy of Sciences. 
+- *2023* First-Class Academic Scholarship, University of Chinese Academy of Sciences.
+- *2022* Second Prize of Shandong Province, China Undergraduate Mathematical Contest in Modeling. 
+- *2022* Third-Class Academic Scholarship, Shandong University. 
 
 <!-- # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
