@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Yang Li"
-description              : "Master student at Institute of Computing Technology, Chinese Academy of Sciences"
+description              : "Master's degree in reading"
 repository               : "Liesy/Liesy.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -51,7 +51,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "https://x.com/Yangli_academic"
+  twitter          : "Yangli_academic"
   vine             :
   weibo            :
   xing             :
