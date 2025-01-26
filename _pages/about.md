@@ -30,7 +30,7 @@ My research interest includes toxic content detection, jailbreaking, alignment, 
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 
 # 📖 Educations
-- *2023.06 - now*, Master
+- *2023.09 - now*, Master
   - Institute of Computing Technology, Chinese Academy of Sciences. 
 - *2019.09 - 2023.06*, Bechelor
   - School of Computer Science and Technology, Shandong University.
@@ -49,11 +49,11 @@ My research interest includes toxic content detection, jailbreaking, alignment, 
 </div>
 </div> -->
 
-- \[**AAAI 2024**\][Bad actor, good advisor: Exploring the role of large language models in fake news detection](https://github.com/ICTMCG/ARG)
+- \[**AAAI 2024**\] [Bad actor, good advisor: Exploring the role of large language models in fake news detection](https://github.com/ICTMCG/ARG)
   
   Beizhe Hu, Qiang Sheng, Juan Cao, Yuhui Shi, <u><font size=4>Yang Li</font></u>, Danding Wang, Peng Qi
 
-- \[**Arxiv**\][For a more comprehensive evaluation of 6dof object pose tracking](https://arxiv.org/abs/2309.07796)
+- \[**Arxiv**\] [For a more comprehensive evaluation of 6dof object pose tracking](https://arxiv.org/abs/2309.07796)
   
   <u><font size=4>Yang Li</font></u>, Fan Zhong, Xin Wang, Shuangbing Song, Jiachen Li, Xueying Qin, Changhe Tu
 
