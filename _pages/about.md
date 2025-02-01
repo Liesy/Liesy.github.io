@@ -25,9 +25,8 @@ My research interest includes toxic content detection, jailbreaking, alignment, 
 <a href='https://scholar.google.com/citations?user=D09OAbQAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 
 
-<!-- # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
+# 🔥 News
+- *2025.02* &nbsp;🎉🎉 My scholar profile reached 100 citations!
 
 # 📖 Educations
 - *2023.09 - now*, Master
