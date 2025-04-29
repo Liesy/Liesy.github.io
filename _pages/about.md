@@ -51,7 +51,7 @@ My research interest includes toxic content detection, jailbreaking, alignment, 
 </div>
 </div> -->
 
-- \[**SIGIR 2025**\] LLM-Generated Fake News Induces Truth Decay in News Ecosystem: A Case Study on Neural News Recommendation
+- \[**SIGIR 2025**\] [LLM-Generated Fake News Induces Truth Decay in News Ecosystem: A Case Study on Neural News Recommendation](https://arxiv.org/pdf/2504.20013)
 
   Beizhe Hu, Qiang Sheng, Juan Cao, <u><font size=4>Yang Li</font></u>, Danding Wang
 
