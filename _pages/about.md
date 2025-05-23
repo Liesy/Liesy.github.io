@@ -65,6 +65,7 @@ My research interest includes toxic content detection, jailbreaking, alignment, 
 
 # 🎖 Honors and Awards
 
+- _2025_ Merit Student, University of Chinese Academy of Sciences.
 - _2024_ Second-Class Academic Scholarship, University of Chinese Academy of Sciences.
 - _2023_ Freshman Scholarship of [E Fund](https://www.efunds.com.cn/index.shtml) Financial Technology.
 - _2023_ First-Class Academic Scholarship, University of Chinese Academy of Sciences.
