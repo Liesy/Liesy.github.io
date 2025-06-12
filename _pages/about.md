@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a master student at the Media Synthesis and Forensics Lab (formerly known as Multimedia Computing Group), [Instutite of Computing Technology](http://www.ict.ac.cn/), [Chinese Academy of Sciences](http://www.cas.cn/), advised by professor [Juan Cao](https://scholar.google.com/citations?user=fSBdNg0AAAAJ) and assistant professor (researcher) [Qiang Sheng](https://sheng-qiang.github.io).
+I am a second-year PhD student at the Media Synthesis and Forensics Lab (formerly known as Multimedia Computing Group), [Instutite of Computing Technology](http://www.ict.ac.cn/), [Chinese Academy of Sciences](http://www.cas.cn/), advised by professor [Juan Cao](https://scholar.google.com/citations?user=fSBdNg0AAAAJ) and assistant professor (researcher) [Qiang Sheng](https://sheng-qiang.github.io).
 
 My research interest includes toxic content detection, jailbreaking, alignment, and fake news detection, in the era of large language models.
 
@@ -32,14 +32,14 @@ My research interest includes toxic content detection, jailbreaking, alignment, 
 
 # 📖 Educations
 
-- _2023.09 - now_, Master
+- _2023.09 - now_, PhD Candidate
   - Institute of Computing Technology, Chinese Academy of Sciences.
-- _2019.09 - 2023.06_, Bechelor
+- _2019.09 - 2023.06_, Bachelor of Engineering
   - School of Computer Science and Technology, Shandong University.
 
 # 📝 Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Pre-print</div><img src='images/early-stop.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/early-stop.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [From Judgment to Interference: Early Stopping LLM Harmful Outputs via Streaming Content Monitoring](https://arxiv.org/abs/2506.09996)
@@ -53,15 +53,15 @@ My research interest includes toxic content detection, jailbreaking, alignment, 
 </div>
 </div>
 
-- `SIGIR 2025` [LLM-Generated Fake News Induces Truth Decay in News Ecosystem: A Case Study on Neural News Recommendation](https://arxiv.org/pdf/2504.20013)
+- \[**SIGIR 2025**\] [LLM-Generated Fake News Induces Truth Decay in News Ecosystem: A Case Study on Neural News Recommendation](https://arxiv.org/pdf/2504.20013)
 
   Beizhe Hu, Qiang Sheng, Juan Cao, <u><font size=4>Yang Li</font></u>, Danding Wang
 
-- `AAAI 2024` [Bad actor, good advisor: Exploring the role of large language models in fake news detection](https://github.com/ICTMCG/ARG)
+- \[**AAAI 2024**\] [Bad Actor, Good Advisor: Exploring the Role of Large Language Models in Fake News Detection](https://github.com/ICTMCG/ARG)
 
   Beizhe Hu, Qiang Sheng, Juan Cao, Yuhui Shi, <u><font size=4>Yang Li</font></u>, Danding Wang, Peng Qi
 
-- \[**Arxiv**\] [For a more comprehensive evaluation of 6dof object pose tracking](https://arxiv.org/abs/2309.07796)
+- \[**Preprint**\] [For a More Comprehensive Evaluation of 6Dof Object Pose Tracking](https://arxiv.org/abs/2309.07796)
 
   <u><font size=4>Yang Li</font></u>, Fan Zhong, Xin Wang, Shuangbing Song, Jiachen Li, Xueying Qin, Changhe Tu
 
