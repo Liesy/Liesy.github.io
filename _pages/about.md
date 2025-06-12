@@ -49,19 +49,19 @@ My research interest includes toxic content detection, jailbreaking, alignment, 
 <!-- [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> -->
 
 - **Data:** We construct **FineHarm**, a dataset consisting of 29K prompt-response pairs with fine-grained annotations to provide reasonable supervision for token-level training.
-- **Model:** we propose the **Streaming Content Monitor (SCM)**, which is trained with dual supervision of response- and token-level labels and can follow the output stream of LLM to make a timely judgment of harmfulness.
+- **Model:** We propose the **Streaming Content Monitor (SCM)**, which is trained with dual supervision of response- and token-level labels and can follow the output stream of LLM to make a timely judgment of harmfulness.
 </div>
 </div>
 
-- \[**SIGIR 2025**\] [LLM-Generated Fake News Induces Truth Decay in News Ecosystem: A Case Study on Neural News Recommendation](https://arxiv.org/pdf/2504.20013)
+- `SIGIR 2025` [LLM-Generated Fake News Induces Truth Decay in News Ecosystem: A Case Study on Neural News Recommendation](https://arxiv.org/pdf/2504.20013)
 
   Beizhe Hu, Qiang Sheng, Juan Cao, <u><font size=4>Yang Li</font></u>, Danding Wang
 
-- \[**AAAI 2024**\] [Bad Actor, Good Advisor: Exploring the Role of Large Language Models in Fake News Detection](https://github.com/ICTMCG/ARG)
+- `AAAI 2024` [Bad Actor, Good Advisor: Exploring the Role of Large Language Models in Fake News Detection](https://github.com/ICTMCG/ARG)
 
   Beizhe Hu, Qiang Sheng, Juan Cao, Yuhui Shi, <u><font size=4>Yang Li</font></u>, Danding Wang, Peng Qi
 
-- \[**Preprint**\] [For a More Comprehensive Evaluation of 6Dof Object Pose Tracking](https://arxiv.org/abs/2309.07796)
+- `Preprint` [For a More Comprehensive Evaluation of 6Dof Object Pose Tracking](https://arxiv.org/abs/2309.07796)
 
   <u><font size=4>Yang Li</font></u>, Fan Zhong, Xin Wang, Shuangbing Song, Jiachen Li, Xueying Qin, Changhe Tu
 
