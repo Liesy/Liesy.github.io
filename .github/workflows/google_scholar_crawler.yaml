@@ -2,9 +2,6 @@ name: Get Citation Data
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - main
   schedule:
     - cron: "0 8 * * *"
 
@@ -17,6 +14,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Run crawler
         env:
@@ -25,16 +24,15 @@ jobs:
           cd google_scholar_crawler
           python3 main.py
 
-      - name: Push results to google-scholar-stats branch
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Copy results into main branch data directory
         run: |
-          cd google_scholar_crawler/results
-          git init
-          git config --local user.name "${GITHUB_ACTOR}"
-          git config --local user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-          git add *.json
-          git commit -m "Updated Citation Data" || echo "No changes to commit"
-          git branch -M google-scholar-stats
-          git remote add origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
-          git push -f origin google-scholar-stats
+          mkdir -p _data/google_scholar
+          cp -f google_scholar_crawler/results/*.json _data/google_scholar/
+
+      - name: Commit updated citation data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add _data/google_scholar/*.json
+          git commit -m "Update Google Scholar citation data" || echo "No changes to commit"
+          git push origin HEAD:main
