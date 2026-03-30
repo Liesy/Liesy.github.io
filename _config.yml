@@ -128,6 +128,13 @@ defaults:
 sass:
   sass_dir: _sass
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  quiet_deps: true
+  silence_deprecations:
+    - import
+    - global-builtin
+    - if-function
+    - slash-div
+    - color-functions
 
 # Outputting
 permalink: /:categories/:title/
