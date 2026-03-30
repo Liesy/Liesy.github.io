@@ -10,10 +10,8 @@
  *
 */
 
-@import "vendor/breakpoint/breakpoint"; // media query mixins
 @import "variables";
 @import "mixins";
-@import "vendor/susy/susy";
 
 @import "reset";
 @import "base";
@@ -31,7 +29,6 @@
 @import "forms";
 
 @import "page";
-@import "archive";
 @import "sidebar";
 
 @import "vendor/font-awesome/fontawesome";
@@ -66,7 +63,7 @@
     order: 1;
   }
 
-  @include breakpoint($medium) {
+  @media (min-width: $medium) {
     .paper-box-image {
       justify-content: left;
       min-width: 200px;

@@ -14,12 +14,13 @@
   z-index: 20;
 
   &__inner-wrap {
-    @include container;
-    @include clearfix;
+    max-width: $large;
+    margin-left: auto;
+    margin-right: auto;
     padding: .5em;
     font-family: $sans-serif-narrow;
 
-    @include breakpoint($x-large) {
+    @media (min-width: $x-large) {
       max-width: $x-large;
     }
 
@@ -44,7 +45,7 @@
 }
 
 .masthead__menu-home-item {
-  @include breakpoint($medium) {
+  @media (min-width: $medium) {
     display: block !important;
   }
   display: none !important;
@@ -60,5 +61,4 @@
     font-weight: 700;
   }
 }
-
 

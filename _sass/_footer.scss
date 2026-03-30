@@ -3,10 +3,6 @@
    ========================================================================== */
 
 .page__footer {
-  @include clearfix;
-  float: left;
-  margin-left: 0;
-  margin-right: 0;
   width: 100%;
   clear: both;
   /* sticky footer fix start */
@@ -24,14 +20,13 @@
   border-top: 1px solid $light-gray;
 
   footer {
-    @include clearfix;
     margin-left: auto;
     margin-right: auto;
     margin-top: 2em;
-    max-width: 100%;
+    max-width: $large;
     padding: 0 1em 2em;
 
-    @include breakpoint($x-large) {
+    @media (min-width: $x-large) {
       max-width: $x-large;
     }
   }
