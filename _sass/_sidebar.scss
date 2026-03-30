@@ -43,6 +43,10 @@
   align-items: center;
   gap: 0.75rem;
 
+  @media (max-width: $medium) {
+    grid-template-columns: minmax(4.75rem, 5.5rem) minmax(0, 1fr);
+  }
+
   @media (min-width: $large) {
     grid-template-columns: 1fr;
     justify-items: start;
@@ -114,6 +118,13 @@
   font-family: $sans-serif;
   z-index: 10;
   cursor: pointer;
+
+  @media (max-width: $medium) {
+    grid-column: 1 / -1;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 0.35rem;
+  }
 
   li:last-child {
     a {
@@ -222,7 +233,9 @@
 .author__urls_sm {
   padding: .25em;
   font-size: 1.75em;
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 0.5rem;
 
   a {
     color: inherit;
