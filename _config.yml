@@ -22,7 +22,7 @@ baidu_site_verification: # get baidu_site_verification from https://ziyuan.baidu
 # Site Author
 author:
   name: "Yang Li"
-  avatar: "images/photo.png"
+  avatar: "images/photo.webp"
   bio: "Institute of Computing Technology, Chinese Academy of Sciences"
   location: "Beijing, China"
   employer:
