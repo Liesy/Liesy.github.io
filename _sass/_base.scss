@@ -206,6 +206,17 @@ li code.highlighter-rouge {
   }
 }
 
+/* Google Scholar citation badge: apply rounded corners and shadow to
+   the for-the-badge SVG image at the CSS rendering level. */
+.scholar-badge {
+  border-radius: 5px;
+  box-shadow:
+    0 3px 12px rgba(0, 0, 0, 0.25),
+    0 1px 8px rgba(0, 0, 0, 0.15);
+  outline: 1px solid rgba(0, 0, 0, 0.12);
+  vertical-align: middle;
+}
+
 /* Gray chip style for date labels (e.g. _Apr. 2026_) in list items.
    Target both li > em (tight list) and li > p > em (loose list, kramdown wraps in <p>). */
 li > em:first-child,
