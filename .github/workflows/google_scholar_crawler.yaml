@@ -3,7 +3,7 @@ name: Get Citation Data
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 8 * * *"
+    - cron: "0 0 * * 5"  # Every Friday at 08:00 CST (UTC+8)
 
 permissions:
   contents: write

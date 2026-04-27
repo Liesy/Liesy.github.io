@@ -21,7 +21,12 @@ body {
   }
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 1em 0 0.5em;
   line-height: 1.2;
   font-family: $header-font-family;
@@ -54,7 +59,8 @@ h6 {
   font-size: $type-size-6;
 }
 
-small, .small {
+small,
+.small {
   font-size: $type-size-6;
 }
 
@@ -82,7 +88,15 @@ del a {
 
 /* reduce orphans and widows when printing */
 
-p, pre, blockquote, ul, ol, dl, figure, table, fieldset {
+p,
+pre,
+blockquote,
+ul,
+ol,
+dl,
+figure,
+table,
+fieldset {
   orphans: 3;
   widows: 3;
 }
@@ -118,7 +132,6 @@ blockquote {
 /* links */
 
 a {
-  
   &:focus {
     @extend %tab-focus;
   }
@@ -131,7 +144,11 @@ a {
 
 /* code */
 
-tt, code, kbd, samp, pre {
+tt,
+code,
+kbd,
+samp,
+pre {
   font-family: $monospace;
 }
 
@@ -152,10 +169,54 @@ td > code {
   border-radius: $border-radius;
   box-shadow: $box-shadow;
 
-  &:before, &:after {
+  &:before,
+  &:after {
     letter-spacing: -0.2em;
     content: "\00a0"; /* non-breaking space*/
   }
+}
+
+/* Rounded pill-style badge for venue labels (e.g. ACL 2026) in publication lists */
+/* Jekyll wraps inline code in <code class="language-plaintext highlighter-rouge">.
+   Use li code.highlighter-rouge (specificity 0,1,2) to beat .highlighter-rouge (0,1,0). */
+li code.highlighter-rouge {
+  border-radius: 6px;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+  padding-top: 0.15em;
+  padding-bottom: 0.15em;
+  color: #fff;
+  background: #1a5bbf;
+  border: none;
+  font-size: 0.77em;
+  font-weight: 800;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.13);
+  }
+
+  /* Preprint-specific override: light red background */
+  &.badge-preprint {
+    background: #777777;
+  }
+}
+
+/* Gray chip style for date labels (e.g. _Apr. 2026_) in list items.
+   Target both li > em (tight list) and li > p > em (loose list, kramdown wraps in <p>). */
+li > em:first-child,
+li > p > em:first-child {
+  font-style: normal;
+  font-size: 0.9em;
+  color: #6b7280;
+  background: #f3f4f6;
+  border-radius: 6px;
+  padding: 0.1em 0.5em;
+  white-space: nowrap;
 }
 
 /* horizontal rule */
@@ -189,9 +250,9 @@ figure {
   display: -webkit-box;
   display: flex;
   -webkit-box-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   -webkit-box-align: start;
-          align-items: flex-start;
+  align-items: flex-start;
   flex-wrap: wrap;
   margin: 2em 0;
 
@@ -261,13 +322,11 @@ figcaption {
   }
 }
 
-
 /* Fix IE9 SVG bug */
 
 svg:not(:root) {
   overflow: hidden;
 }
-
 
 /*
    Navigation lists
@@ -316,7 +375,28 @@ nav {
    Global animation transition
    ========================================================================== */
 
-b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a, tr, td, form button, input[type="submit"], .btn, .highlight, .archive__item-teaser {
+b,
+i,
+strong,
+em,
+blockquote,
+p,
+q,
+span,
+figure,
+img,
+h1,
+h2,
+header,
+input,
+a,
+tr,
+td,
+form button,
+input[type="submit"],
+.btn,
+.highlight,
+.archive__item-teaser {
   -webkit-transition: $global-transition;
   transition: $global-transition;
 }

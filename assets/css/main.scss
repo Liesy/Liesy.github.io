@@ -92,12 +92,26 @@ h1:before,
 }
 
 .badge {
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+  padding-top: 0.15em;
+  padding-bottom: 0.15em;
   position: absolute;
   margin-top: 0.5em;
   margin-left: -0.5em;
-  color: white;
-  background-color: #00369f;
-  font-size: 0.8em;
+  color: #fff;
+  background: #1a5bbf;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  font-size: 0.9em;
+  font-weight: 800;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.13);
+  }
 }
