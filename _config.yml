@@ -7,7 +7,7 @@
 
 # Site Settings
 title: "Yang Li"
-description: "PhD Candidate (Year 3)"
+description: "Ph.D. Student (Year 3)"
 repository: "Liesy/Liesy.github.io"
 google_scholar_stats_use_cdn: true
 
@@ -40,12 +40,13 @@ author:
   github: "Liesy" # e.g., "github username"
   google_plus:
   keybase:
-  instagram:
+  instagram: "radi2nce"
   impactstory: # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm:
   linkedin: # e.g., "linkedin username"
   dblp: "https://dblp.org/pid/37/4190-196" # e.g., "https://dblp.org/pid/xx/xxxx.html"
   orcid: "https://orcid.org/0009-0001-1808-8042"
+  anthology: "https://aclanthology.org/people/yang-li-8042/" # e.g., "https://aclanthology.org/people/y/yang-li/"
   pinterest:
   soundcloud:
   stackoverflow: # http://stackoverflow.com/users/123456/username
