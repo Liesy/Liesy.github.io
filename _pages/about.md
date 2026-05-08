@@ -79,7 +79,7 @@ I am a Ph.D. student at the Media Synthesis and Forensics Lab (formerly known as
 
   Zehao Li, Hongwei Yu, Hao Jiang, Qiang Sheng, Yilong Xu, Baolong Bi, <u><font size=4>Yang Li</font></u>, Zhenlong Yuan, Yujun Cai, Zhaoqi Wang
 
-- `ACL 2026` Logical Consistency as a Bridge: Improving LLM Hallucination Detection via Label Constraint Modeling between Responses and Self-Judgments
+- `ACL 2026` [Logical Consistency as a Bridge: Improving LLM Hallucination Detection via Label Constraint Modeling between Responses and Self-Judgments](https://summerrice.github.io/LaaB/)
 
   Hao Mi, Qiang Sheng, Shaofei Wang, Beizhe Hu, Yifan Sun, Zhengjia Wang, Hengqi Zeng, <u><font size=4>Yang Li</font></u>, Danding Wang, Juan Cao
 
