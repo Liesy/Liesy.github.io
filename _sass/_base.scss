@@ -200,9 +200,13 @@ li code.highlighter-rouge {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.13);
   }
 
-  /* Preprint-specific override: light red background */
+  /* Preprint-specific override: gray background */
   &.badge-preprint {
     background: #777777;
+  }
+
+  &.badge-oral {
+    background: #d93025;
   }
 }
 

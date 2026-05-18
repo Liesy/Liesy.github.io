@@ -114,4 +114,9 @@ h1:before,
     transform: translateY(-2px);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.13);
   }
+
+  &.badge-oral {
+    margin-top: 2.7em;
+    background: #d93025;
+  }
 }

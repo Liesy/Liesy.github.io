@@ -49,7 +49,7 @@ I am a Ph.D. student at the Media Synthesis and Forensics Lab (formerly known as
 
 # 📝 Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026</div><img src='images/race.webp' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026</div><div class="badge badge-oral">Oral</div><img src='images/race.webp' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Beyond the Final Actor: Modeling the Dual Roles of Creator and Editor for Fine-Grained LLM-Generated Text Detection](https://race.yang-li.cn/)
@@ -79,7 +79,7 @@ I am a Ph.D. student at the Media Synthesis and Forensics Lab (formerly known as
 
   Zehao Li, Hongwei Yu, Hao Jiang, Qiang Sheng, Yilong Xu, Baolong Bi, <u><font size=4>Yang Li</font></u>, Zhenlong Yuan, Yujun Cai, Zhaoqi Wang
 
-- `ACL 2026` [Logical Consistency as a Bridge: Improving LLM Hallucination Detection via Label Constraint Modeling between Responses and Self-Judgments](https://summerrice.github.io/LaaB/)
+- `ACL 2026` `Oral` [Logical Consistency as a Bridge: Improving LLM Hallucination Detection via Label Constraint Modeling between Responses and Self-Judgments](https://summerrice.github.io/LaaB/)
 
   Hao Mi, Qiang Sheng, Shaofei Wang, Beizhe Hu, Yifan Sun, Zhengjia Wang, Hengqi Zeng, <u><font size=4>Yang Li</font></u>, Danding Wang, Juan Cao
 
@@ -132,11 +132,15 @@ I am a Ph.D. student at the Media Synthesis and Forensics Lab (formerly known as
   - ACL Rolling Review (Oct. 2025)
 
 <script>
-// Mark inline code badges whose text is "Preprint" with a dedicated class
-// so CSS can apply a distinct (light-red) background.
+// Mark selected inline code badges with dedicated classes
+// so CSS can apply distinct backgrounds.
 document.querySelectorAll('li code.highlighter-rouge').forEach(function(el) {
-  if (el.textContent.trim() === 'Preprint') {
+  const badgeText = el.textContent.trim();
+  if (badgeText === 'Preprint') {
     el.classList.add('badge-preprint');
+  }
+  if (badgeText === 'Oral') {
+    el.classList.add('badge-oral');
   }
 });
 </script>
