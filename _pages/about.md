@@ -118,6 +118,43 @@ I am a Ph.D. student at the Media Synthesis and Forensics Lab (formerly known as
 
 - _2022_ Second Prize of Shandong Province, China Undergraduate Mathematical Contest in Modeling.
 
+# 💻 Open Source Projects
+
+<div class="repo-card-container">
+  <a href="https://github.com/Liesy/EasyMGTD" class="repo-card">
+    <div class="repo-card-header">
+      <span class="repo-name">
+        <svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor"><path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z"/></svg>
+        EasyMGTD
+      </span>
+      <span class="repo-role-badge repo-role-author">Author</span>
+    </div>
+    <p class="repo-desc">An easy-to-use Python framework to run machine-generated-text-detection baselines.</p>
+    <div class="repo-stats">
+      <span class="repo-stat">
+        <svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z"/></svg>
+        <span id="stars-Liesy-EasyMGTD">–</span>
+      </span>
+    </div>
+  </a>
+  <a href="https://github.com/dinobot22/antigravity-ssh-proxy" class="repo-card">
+    <div class="repo-card-header">
+      <span class="repo-name">
+        <svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor"><path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z"/></svg>
+        antigravity-ssh-proxy
+      </span>
+      <span class="repo-role-badge repo-role-contributor">Contributor</span>
+    </div>
+    <p class="repo-desc">SSH proxy extension for Antigravity. Routes remote server traffic to your local proxy via reverse tunneling—no root privileges required—restoring AI functionality on remote servers in restricted network environments.</p>
+    <div class="repo-stats">
+      <span class="repo-stat">
+        <svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z"/></svg>
+        <span id="stars-dinobot22-antigravity-ssh-proxy">–</span>
+      </span>
+    </div>
+  </a>
+</div>
+
 # 💬 Invited Talks
 
 - _Nov. 12, 2025_ NeurIPS 2025 Pre-conference \| LLM Safety, Alignment and Trustworthy AI (NeurIPS 2025 预讲会 \| LLM 安全、对齐与可信 AI). \| [\[Video (Starts at 32:00)\]](https://www.bilibili.com/video/BV1NYUqBKEcX/?vd_source=f27763ddf5f3901a62791a68408fad7d)
@@ -142,5 +179,21 @@ document.querySelectorAll('li code.highlighter-rouge').forEach(function(el) {
   if (badgeText === 'Oral') {
     el.classList.add('badge-oral');
   }
+});
+
+// Fetch GitHub star counts for open source project cards.
+// Elements with id="stars-{owner}-{repo}" are populated automatically.
+document.querySelectorAll('[id^="stars-"]').forEach(function(el) {
+  var parts = el.id.replace('stars-', '').split('-');
+  var owner = parts.shift();
+  var repo  = parts.join('-');
+  fetch('https://api.github.com/repos/' + owner + '/' + repo)
+    .then(function(r) { return r.json(); })
+    .then(function(d) {
+      if (typeof d.stargazers_count === 'number') {
+        el.textContent = d.stargazers_count.toLocaleString();
+      }
+    })
+    .catch(function() { /* keep placeholder on error */ });
 });
 </script>
