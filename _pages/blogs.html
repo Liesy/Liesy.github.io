@@ -1,0 +1,35 @@
+---
+permalink: /blogs/
+title: "Blogs"
+author_profile: false
+---
+
+<a href="/" class="blog-back-link" target="_self">
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+  Back to Home
+</a>
+
+<h1 class="blog-index-title">📝 Blogs</h1>
+
+<div class="blog-list">
+  {% assign sorted_blogs = site.blogs | sort: "date" | reverse %}
+  {% for post in sorted_blogs %}
+  <a href="{{ post.url }}" class="blog-list-item" target="_self">
+    <div class="blog-list-item-content">
+      <h2 class="blog-list-item-title">{{ post.title }}</h2>
+      <div class="blog-list-item-meta">
+        {% if post.date %}
+          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+        {% endif %}
+        {% if post.copyable %}
+          <span class="blog-badge-copyable">Copyable</span>
+        {% endif %}
+      </div>
+      {% if post.description %}
+        <p class="blog-list-item-desc">{{ post.description }}</p>
+      {% endif %}
+    </div>
+    <svg class="blog-list-item-arrow" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+  </a>
+  {% endfor %}
+</div>

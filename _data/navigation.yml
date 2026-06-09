@@ -24,5 +24,8 @@ main:
   - title: "Academic Services"
     url: "/#-academic-services"
 
+  - title: "Blogs"
+    url: "/blogs/"
+
   # - title: "Internships"
   #   url: "/#-internships"
