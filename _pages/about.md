@@ -31,6 +31,7 @@ I am a Ph.D. student at the Media Synthesis and Forensics Lab (formerly known as
 
 # 🔥 News
 
+- _Jul. 2026_ &nbsp;🏆 Our paper [Beyond the Final Actor: Modeling the Dual Roles of Creator and Editor for Fine-Grained LLM-Generated Text Detection](https://race.yang-li.cn/) received an <span style="color: red; font-weight: 700;">ACL 2026 Outstanding Paper Award</span>.
 - _May 2026_ &nbsp; One co-authored paper got accepted by ICML 2026.
 - _Apr. 2026_ &nbsp;🎉 One first-authored paper and one co-authored paper got accepted by [ACL 2026](https://2026.aclweb.org/). See you in San Diego AGAIN!
 - _Sep. 2025_ &nbsp;🎉 One first-authored paper got accepted by [NeurIPS 2025](https://neurips.cc/Conferences/2025). See you in [San Diego](https://maps.app.goo.gl/bY9UaC2EcsWQCy946)!
@@ -49,10 +50,12 @@ I am a Ph.D. student at the Media Synthesis and Forensics Lab (formerly known as
 
 # 📝 Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026</div><div class="badge badge-oral">Oral</div><img src='images/race.webp' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026</div><div class="badge badge-award">Outstanding Paper Award</div><img src='images/race.webp' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Beyond the Final Actor: Modeling the Dual Roles of Creator and Editor for Fine-Grained LLM-Generated Text Detection](https://race.yang-li.cn/)
+
+<span style="color: red; font-weight: 700;">🏆 ACL 2026 Outstanding Paper Award!</span>
 
 <u><font size=4>Yang Li</font></u>, Qiang Sheng, Zhengjia Wang, Yehan Yang, Danding Wang, Juan Cao
 
@@ -103,6 +106,8 @@ I am a Ph.D. student at the Media Synthesis and Forensics Lab (formerly known as
 
 ## Honors
 
+- _Jul. 2026_ ACL 2026 Outstanding Paper Award, Association for Computational Linguistics.
+  <!-- Add the official ACL 2026 award announcement link here when available. -->
 - _May 2025_ Merit Student, University of Chinese Academy of Sciences.
 
 ## Scholarships
@@ -156,6 +161,8 @@ I am a Ph.D. student at the Media Synthesis and Forensics Lab (formerly known as
 </div>
 
 # 💬 Invited Talks
+
+- _Jun. 26, 2026_ JIQIZHIXIN ACL-2026 Pre-conference \| 机器之心 ACL-2026 论文分享会 \| [\[Video\]](https://www.bilibili.com/video/BV11dTk6nES9)
 
 - _Nov. 12, 2025_ NeurIPS 2025 Pre-conference \| LLM Safety, Alignment and Trustworthy AI (NeurIPS 2025 预讲会 \| LLM 安全、对齐与可信 AI). \| [\[Video (Starts at 32:00)\]](https://www.bilibili.com/video/BV1NYUqBKEcX/?vd_source=f27763ddf5f3901a62791a68408fad7d)
 
