@@ -42,11 +42,58 @@ I am a Ph.D. student at the Media Synthesis and Forensics Lab (formerly known as
 
 # 📖 Education
 
-- _Sep. 2023 - Present_ Ph.D. Student in Computer Science
-  - Institute of Computing Technology, Chinese Academy of Sciences.
-  - Integrated Ph.D. Program _Expected graduation: Jun. 2028_
-- _Sep. 2019 - Jun. 2023_ Bachelor of Engineering in Artificial Intelligence
-  - School of Computer Science and Technology, Shandong University.
+<div class="education-entry">
+  <img class="education-logo" src="images/ucas-logo.webp" alt="University of Chinese Academy of Sciences emblem">
+  <div class="education-details">
+    <div class="education-heading">
+      <strong>University of Chinese Academy of Sciences</strong>
+      <span class="education-date">Sep. 2023 - Present</span>
+    </div>
+    <p class="education-degree">Ph.D. Student in Computer Science</p>
+    <p>Institute of Computing Technology, Chinese Academy of Sciences.</p>
+    <p>Integrated Ph.D. Program · <em>Expected graduation: Jun. 2028</em></p>
+  </div>
+</div>
+
+<div class="education-entry">
+  <span class="education-logo education-logo--sdu">
+    <img src="images/sdu-logo.webp" alt="Shandong University emblem">
+  </span>
+  <div class="education-details">
+    <div class="education-heading">
+      <strong>Shandong University</strong>
+      <span class="education-date">Sep. 2019 - Jun. 2023</span>
+    </div>
+    <p class="education-degree">Bachelor of Engineering in Artificial Intelligence</p>
+    <p>School of Computer Science and Technology.</p>
+  </div>
+</div>
+
+<!-- # 💼 Internships
+
+<div class="internship-entry">
+  <img class="internship-logo" src="images/alibaba-group-logo.webp" alt="Alibaba Group logo" title="Source: www.alibabagroup.com.">
+  <div class="internship-details">
+    <div class="internship-heading">
+      <strong>Alibaba Group</strong>
+      <span class="internship-date">Sep. 2026 - Present</span>
+    </div>
+    <p class="internship-role">Research Intern · Security AGI Lab, Group Security</p>
+    <p>Research on foundation models for content safety and self-evolving agents.</p>
+  </div>
+</div>
+
+<div class="internship-entry">
+  <img class="internship-logo" src="images/huawei-logo.webp" alt="Huawei logo">
+  <div class="internship-details">
+    <div class="internship-heading">
+      <strong>Huawei 2012 Laboratories</strong>
+      <span class="internship-date">Mar. 2026 - Sep. 2026</span>
+    </div>
+    <p class="internship-role">Research Intern · Foundation Model Department</p>
+    <p>Research on diffusion language models.</p>
+  </div>
+</div> -->
 
 # 📝 Publications
 
@@ -97,6 +144,10 @@ I am a Ph.D. student at the Media Synthesis and Forensics Lab (formerly known as
 - `AAAI 2024` [Bad Actor, Good Advisor: Exploring the Role of Large Language Models in Fake News Detection](https://github.com/ICTMCG/ARG)
 
   Beizhe Hu, Qiang Sheng, Juan Cao, Yuhui Shi, <u><font size=4>Yang Li</font></u>, Danding Wang, Peng Qi
+
+- `Preprint` [Autonomy-of-Heads: Data-Free Sparse Attention from Frozen Query-Key Geometry](https://arxiv.org/abs/2608.06849)
+
+  Yehan Yang, Junyuan Shang, <u><font size=4>Yang Li</font></u>, Guanqun Zhao, Shuohuan Wang, Dianhai Yu
 
 - `Preprint` [For a More Comprehensive Evaluation of 6Dof Object Pose Tracking](https://arxiv.org/abs/2309.07796)
 
@@ -166,14 +217,12 @@ I am a Ph.D. student at the Media Synthesis and Forensics Lab (formerly known as
 
 - _Nov. 12, 2025_ NeurIPS 2025 Pre-conference \| LLM Safety, Alignment and Trustworthy AI (NeurIPS 2025 预讲会 \| LLM 安全、对齐与可信 AI). \| [\[Video (Starts at 32:00)\]](https://www.bilibili.com/video/BV1NYUqBKEcX/?vd_source=f27763ddf5f3901a62791a68408fad7d)
 
-<!-- # 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China. -->
-
 # 📚 Academic Services
 
 - _Conf. Reviewer/PC Member_
   - TheWebConf (WWW) 2025
-  - ACL Rolling Review (Oct. 2025)
+  - ACL Rolling Review (Oct. 2025 - Present)
+  - International Conference on Learning Representations (ICLR) 2026
 
 <script>
 // Mark selected inline code badges with dedicated classes

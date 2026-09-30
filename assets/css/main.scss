@@ -126,17 +126,113 @@ h1:before,
   }
 }
 
+/* Education and research internships */
+.education-entry,
+.internship-entry {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  margin: 1.25rem 0;
+}
+
+.education-logo,
+.internship-logo {
+  flex-shrink: 0;
+  width: calc(112px * 2 / 3);
+  object-fit: contain;
+}
+
+.education-logo {
+  height: calc(112px * 2 / 3);
+}
+
+/* Center the SDU image's 413 x 412 px emblem in a 415 px square viewport.
+   Its 564 x 502 px source includes uneven white margins. */
+.education-logo--sdu {
+  position: relative;
+  overflow: hidden;
+
+  img {
+    position: absolute;
+    max-width: none;
+    width: calc(100% * 564 / 415);
+    height: calc(100% * 502 / 415);
+    left: calc(-100% * 55 / 415);
+    top: calc(-100% * 41.5 / 415);
+  }
+}
+
+.internship-logo {
+  height: calc(56px * 2 / 3);
+}
+
+.education-details,
+.internship-details {
+  flex: 1;
+  min-width: 0;
+
+  p {
+    margin: 0.3em 0 0;
+  }
+}
+
+.education-heading,
+.internship-heading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.3em 1em;
+}
+
+.education-date,
+.internship-date {
+  padding: 0.1em 0.5em;
+  border-radius: 6px;
+  background: #f3f4f6;
+  color: #6b7280;
+  font-size: 0.85em;
+  white-space: nowrap;
+}
+
+.education-details .education-degree,
+.internship-details .internship-role {
+  color: $gray;
+  font-size: 0.95em;
+}
+
+@media (max-width: $small) {
+  .education-entry,
+  .internship-entry {
+    gap: 0.75rem;
+  }
+
+  .education-logo,
+  .internship-logo {
+    width: 48px;
+  }
+
+  .education-logo {
+    height: 48px;
+  }
+
+  .internship-logo {
+    height: 32px;
+  }
+}
+
 /* =============================================
    Open Source project cards
    ============================================= */
 .repo-card-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
   gap: 1rem;
 }
 
 .repo-card {
   display: block;
+  min-width: 0;
   padding: 1.25rem;
   border: 1px solid $lighter-gray;
   border-radius: 8px;
@@ -157,8 +253,10 @@ h1:before,
 
 .repo-card-header {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  gap: 0.5rem;
   margin-bottom: 0.5rem;
 }
 
@@ -167,8 +265,10 @@ h1:before,
   font-size: 1.05em;
   color: #1a5bbf;
   display: flex;
+  min-width: 0;
   align-items: center;
   gap: 0.4rem;
+  overflow-wrap: anywhere;
 
   svg {
     flex-shrink: 0;
