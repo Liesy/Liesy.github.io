@@ -69,7 +69,9 @@ I am a Ph.D. student at the Media Synthesis and Forensics Lab (formerly known as
   </div>
 </div>
 
-<!-- # 💼 Internships
+{% comment %}
+
+# 💼 Internships
 
 <div class="internship-entry">
   <img class="internship-logo" src="images/alibaba-group-logo.webp" alt="Alibaba Group logo" title="Source: www.alibabagroup.com.">
@@ -78,8 +80,8 @@ I am a Ph.D. student at the Media Synthesis and Forensics Lab (formerly known as
       <strong>Alibaba Group</strong>
       <span class="internship-date">Sep. 2026 - Present</span>
     </div>
-    <p class="internship-role">Research Intern · Security AGI Lab, Group Security</p>
-    <p>Research on foundation models for content safety and self-evolving agents.</p>
+    <p class="internship-role">Research Intern · Security AGI Lab, Group Security · Beijing, China</p>
+    <p>Research on foundation models for content safety, and co-evolution of models and harnesses in LLM agent systems.</p>
   </div>
 </div>
 
@@ -87,13 +89,15 @@ I am a Ph.D. student at the Media Synthesis and Forensics Lab (formerly known as
   <img class="internship-logo" src="images/huawei-logo.webp" alt="Huawei logo">
   <div class="internship-details">
     <div class="internship-heading">
-      <strong>Huawei 2012 Laboratories</strong>
+      <strong>Huawei Technologies Co., Ltd. · 2012 Laboratories</strong>
       <span class="internship-date">Mar. 2026 - Sep. 2026</span>
     </div>
-    <p class="internship-role">Research Intern · Foundation Model Department</p>
-    <p>Research on diffusion language models.</p>
+    <p class="internship-role">Research Intern · Foundation Model Department · Beijing, China</p>
+    <p>Optimized denoising trajectories for diffusion language models by selecting jointly compatible tokens for parallel decoding. The key insight is that each decoding step reshapes token dependencies and thus the difficulty of subsequent decoding.</p>
+    <p>Improved reasoning and code generation on Dream and LLaDA, with an 8.6-percentage-point gain in average zero-shot performance on Dream under four-token parallel decoding.</p>
   </div>
-</div> -->
+</div>
+{% endcomment %}
 
 # 📝 Publications
 
@@ -157,17 +161,15 @@ I am a Ph.D. student at the Media Synthesis and Forensics Lab (formerly known as
 
 ## Honors
 
-- _Jul. 2026_ ACL 2026 Outstanding Paper Award, Association for Computational Linguistics.
-  <!-- Add the official ACL 2026 award announcement link here when available. -->
+- _Jul. 2026_ [ACL 2026 Outstanding Paper Award](https://2026.aclweb.org/program/best_papers/#outstanding-papers), Association for Computational Linguistics.
 - _May 2025_ Merit Student, University of Chinese Academy of Sciences.
 
 ## Scholarships
 
+- _2023, 2025, 2026_ First-Class Academic Scholarship, University of Chinese Academy of Sciences.
 - _Dec. 2025_ Excellent Prize of the President Scholarship, ICT, CAS
-- _Oct. 2025_ First-Class Academic Scholarship, University of Chinese Academy of Sciences.
 - _Oct. 2024_ Second-Class Academic Scholarship, University of Chinese Academy of Sciences.
 - _Dec. 2023_ [E Fund FinTech](https://www.efunds.com.cn/index.shtml) Entrance Scholarship.
-- _Oct. 2023_ First-Class Academic Scholarship, University of Chinese Academy of Sciences.
 - _Oct. 2022_ Third-Class Academic Scholarship, Shandong University.
 
 ## Other Awards
@@ -222,7 +224,7 @@ I am a Ph.D. student at the Media Synthesis and Forensics Lab (formerly known as
 - _Conf. Reviewer/PC Member_
   - TheWebConf (WWW) 2025
   - ACL Rolling Review (Oct. 2025 - Present)
-  - International Conference on Learning Representations (ICLR) 2026
+  - International Conference on Learning Representations (ICLR) 2027
 
 <script>
 // Mark selected inline code badges with dedicated classes
